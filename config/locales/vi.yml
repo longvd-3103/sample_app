@@ -3,8 +3,27 @@ vi:
     home:
       english: "Tiếng anh"
       vietnamese: "Tiếng việt"
+      describe_html: "
+        Đây là trang chủ của
+        Ruby on
+        Rails hướng dẫn
+        ứng dụng mẫu.
+        "
+      sample_app: "Ứng dụng mẫu"
       find_me: "Tìm tôi tại app/views/static_pages/home.html.erb"
+
     help:
       english: "Tiếng anh"
       vietnamese: "Tiếng việt"
-      find_me: "Tìm tôi tại app/views/static_pages/help.html.erb"
+      title_sub: "Trợ giúp"
+      describe_html: "
+        Trợ giúp từ Rails Tutorial tại
+        Rails Tutorial
+        help page.
+        để trợ giúp ứng dụng mẫu tìm
+        Ruby on Rails
+        Tutorial
+        book."
+  layouts:
+    application:
+      title: "Ruby on Rails hướng dẫn ứng dụng mẫu"

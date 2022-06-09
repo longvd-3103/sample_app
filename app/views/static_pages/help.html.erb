@@ -1,4 +1,15 @@
-</br>
-<%= link_to t(".english"), locale:"en" %>
-<%= link_to t(".vietnamese"), locale:"vi" %>
-<p><%= t".find_me" %></p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><% provide :title, "Help" %></title>
+  </head>
+  <body>
+  </br>
+  <%= link_to t(".english"), locale: :en %>
+  <%= link_to t(".vietnamese"), locale: :vi %>
+  <h1><%= t ".title_sub" %></h1>
+  <p>
+    <%= t ".describe_html" %>
+  </p>
+</body>
+</html>
