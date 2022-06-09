@@ -1,0 +1,10 @@
+vi:
+  static_pages:
+    home:
+      english: "Tiếng anh"
+      vietnamese: "Tiếng việt"
+      find_me: "Tìm tôi tại app/views/static_pages/home.html.erb"
+    help:
+      english: "Tiếng anh"
+      vietnamese: "Tiếng việt"
+      find_me: "Tìm tôi tại app/views/static_pages/help.html.erb"
