@@ -3,6 +3,7 @@ vi:
     home:
       english: "Tiếng anh"
       vietnamese: "Tiếng việt"
+      home: "Trang chủ"
       describe_html: "
         Đây là trang chủ của
         Ruby on
@@ -10,8 +11,6 @@ vi:
         ứng dụng mẫu.
         "
       sample_app: "Ứng dụng mẫu"
-      find_me: "Tìm tôi tại app/views/static_pages/home.html.erb"
-
     help:
       english: "Tiếng anh"
       vietnamese: "Tiếng việt"

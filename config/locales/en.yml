@@ -3,6 +3,7 @@ en:
     home:
       english: "English"
       vietnamese: "Vietnamese"
+      home: "Home"
       describe_html: "
         This is the home page for the
         Ruby on
@@ -13,6 +14,7 @@ en:
     help:
       english: "English"
       vietnamese: "Vietnamese"
+      help: "Help"
       title_sub: "Help"
       describe_html: "
         Get help on the Ruby on Rails Tutorial at the
