@@ -3,14 +3,10 @@ en:
     home:
       english: "English"
       vietnamese: "Vietnamese"
-      home: "Home"
-      describe_html: "
-        This is the home page for the
-        Ruby on
-        Rails Tutorial
-        sample application.
-        "
-      sample_app: "Sample App"
+      welcome: "Welcome to Sample App"
+      sub_title: "This is the home page for the %{rails_link} sample application"
+      rails_txt: "Ruby on Rails Tutorial"
+      signup: "Sign up now!"
     help:
       english: "English"
       vietnamese: "Vietnamese"
@@ -24,6 +20,26 @@ en:
         Ruby on Rails
         Tutorial
         book."
+    contact:
+      contact: "Contact"
+      describe: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact_link}."
+      contact_txt: "here"
   layouts:
     application:
       title: "Ruby on Rails Sample App"
+    footer:
+      left: "The %{rails_link}
+              by %{michale_link}"
+      rail_txt: "Ruby on Rails Tutorial"
+      michale_txt: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+    header:
+      sample_app: "Sample App"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+  users:
+    signup: "Sign up"
+    describe: "This will be a signup page for new users."
