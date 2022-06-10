@@ -1,9 +1,8 @@
 class StaticPagesController < ApplicationController
-  def home
-    Rails.logger.debug "A debug message"
-  end
+  def home; end
 
-  def help
-    Rails.logger.debug "A debug message"
-  end
+  def help; end
+
+  def contact; end
+
 end

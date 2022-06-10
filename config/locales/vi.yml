@@ -3,14 +3,10 @@ vi:
     home:
       english: "Tiếng anh"
       vietnamese: "Tiếng việt"
-      home: "Trang chủ"
-      describe_html: "
-        Đây là trang chủ của
-        Ruby on
-        Rails hướng dẫn
-        ứng dụng mẫu.
-        "
-      sample_app: "Ứng dụng mẫu"
+      welcome: "Chào mừng bạn đến với ứng dụng mẫu"
+      sub_title: "Đây là trang chủ của %{rails_link} ứng dụng mẫu"
+      rails_txt: "Ruby on Rails Hướng dẫn"
+      signup: "Đăng ký ngay!"
     help:
       english: "Tiếng anh"
       vietnamese: "Tiếng việt"
@@ -19,10 +15,27 @@ vi:
         Trợ giúp từ Rails Tutorial tại
         Rails Tutorial
         help page.
-        để trợ giúp ứng dụng mẫu tìm
+        để trợ giúp ứng dụng mẫu tìmvp
         Ruby on Rails
         Tutorial
         book."
+    contact:
+      contact: "Liên Hệ"
+      describe: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại %{contact_link}."
+      contact_txt: "đây"
   layouts:
     application:
       title: "Ruby on Rails hướng dẫn ứng dụng mẫu"
+    footer:
+      left: "%{rails_link}
+              được viết bởi %{michale_link}"
+      rails_txt: "Ruby on Rails Tutorial"
+      michale_txt: "Michael Hartl"
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Mới"
+    header:
+      sample_app: "Ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
