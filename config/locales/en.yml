@@ -27,6 +27,8 @@ en:
   layouts:
     application:
       title: "Ruby on Rails Sample App"
+      english: "English"
+      vietnamese: "Vietnamese"
     footer:
       left: "The %{rails_link}
               by %{michale_link}"
@@ -43,3 +45,24 @@ en:
   users:
     signup: "Sign up"
     describe: "This will be a signup page for new users."
+    create:
+      create_success: "Welcome to the Sample App!"
+      create_failed: "Created failed!"
+    show:
+      find_failed: "Can't find the user"
+    new:
+      btn_create: "Create new user"
+      re_password: "Confirm password"
+      signup: "SignUp"
+  shared:
+    text_alert: "The form contains"
+    error: "error"
+  activerecord:
+    model:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Username"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Re-password"

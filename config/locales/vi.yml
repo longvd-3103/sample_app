@@ -26,6 +26,8 @@ vi:
   layouts:
     application:
       title: "Ruby on Rails hướng dẫn ứng dụng mẫu"
+      english: "Tiếng anh"
+      vietnamese: "Tiếng việt"
     footer:
       left: "%{rails_link}
               được viết bởi %{michale_link}"
@@ -39,3 +41,27 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+  users:
+    signup: "Đăng ký"
+    describe: "Đây là trang đăng ký người dùng mới."
+    create:
+      create_success: "Chào mừng bạn tới với Sample App!"
+      create_failed: "Tạo người dùng thất bại!"
+    show:
+      find_failed: "Không thể tìm thấy người dùng"
+    new:
+      btn_create: "Tạo tài khoản"
+      re_password: "Nhập lại mật khẩu"
+      signup: "Đăng ký"
+  shared:
+    text_alert: "Form có"
+    error: "lỗi"
+  activerecord:
+    model:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên đăng nhập nè"
+        email: "Email nè"
+        password: "Mật khẩu nè"
+        password_confirmation: "Nhập lại mật khẩu nè"
