@@ -42,6 +42,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      account: "Account"
+      log_out: "Log out"
+      profile: "Profile"
+      setting: "Settings"
+      users: "Users"
   users:
     signup: "Sign up"
     describe: "This will be a signup page for new users."
@@ -59,10 +64,20 @@ en:
     error: "error"
   activerecord:
     model:
-      user: "Người dùng"
+      user: "User"
     attributes:
       user:
         name: "Username"
         email: "Email"
         password: "Password"
         password_confirmation: "Re-password"
+  sessions:
+    new:
+      login: "Login"
+      btn_login: "Log in"
+      email: "Email"
+      password: "Password"
+      new_user: "New user? "
+      sign_up_now: "Sign up now!"
+    create:
+      invalid_email_password_combination: "Email or password ís not correct!"
