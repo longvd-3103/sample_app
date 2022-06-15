@@ -41,6 +41,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      account: "Tài khoản"
+      log_out: "Đăng xuất"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      users: "Người dùng"
   users:
     signup: "Đăng ký"
     describe: "Đây là trang đăng ký người dùng mới."
@@ -59,9 +64,23 @@ vi:
   activerecord:
     model:
       user: "Người dùng"
+      session: "abc"
     attributes:
       user:
         name: "Tên đăng nhập nè"
         email: "Email nè"
         password: "Mật khẩu nè"
         password_confirmation: "Nhập lại mật khẩu nè"
+      session:
+        email: "Email nè"
+        password: "Hehe"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      btn_login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Chưa có tài khoản? "
+      sign_up_now: "Đăng ký ngay!"
+    create:
+      invalid_email_password_combination: "Email hoặc mật khẩu không đúng!"
