@@ -79,5 +79,6 @@ en:
       password: "Password"
       new_user: "New user? "
       sign_up_now: "Sign up now!"
+      remember_me: "Remember me"
     create:
       invalid_email_password_combination: "Email or password ís not correct!"
