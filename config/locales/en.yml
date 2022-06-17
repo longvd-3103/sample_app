@@ -59,6 +59,21 @@ en:
       btn_create: "Create new user"
       re_password: "Confirm password"
       signup: "SignUp"
+      btn_create: "Create my account"
+    update:
+      update_failed: "Update failed!"
+      update_successed: "Update successed!"
+    index:
+      login_required: "Please log in!"
+      title: "All users"
+    destroy:
+      delete_successed: "Delete user successed!"
+      delete_failed: "Delete user failed!"
+    edit:
+      title: "Edit profile"
+      update_title: "Update your profile"
+      btn_change: "Save changes"
+      change_avatar: "Change your avatar"
   shared:
     text_alert: "The form contains"
     error: "error"
@@ -82,3 +97,4 @@ en:
       remember_me: "Remember me"
     create:
       invalid_email_password_combination: "Email or password ís not correct!"
+  confirm_delete: "Are You Sure ?"

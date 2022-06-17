@@ -9,7 +9,8 @@ class User < ApplicationRecord
     maximum: Settings.user.email.max_length
   }, format: {with: Settings.user.email.regex_format}
   validates :password, presence: true,
-    length: {minimum: Settings.user.password.min_length}, if: :password
+    length: {minimum: Settings.user.password.min_length},
+    if: :password, allow_nil: true
   has_secure_password
   class << self
     def digest string
