@@ -58,21 +58,35 @@ vi:
       btn_create: "Tạo tài khoản"
       re_password: "Nhập lại mật khẩu"
       signup: "Đăng ký"
+      btn_create: "Tạo tài khoản"
+    update:
+      update_failed: "Cập nhật thất bại!"
+      update_successed: "Cập nhật thành công!"
+    index:
+      login_required: "Vui lòng đăng nhập!"
+      title: "Tất cả người dùng"
+    destroy:
+      delete_successed: "Xóa người dùng thành công!"
+      delete_failed: "Xóa người dùng thất bại!"
+    edit:
+      title: "Chỉnh sửa hồ sơ"
+      update_title: "Chỉnh sửa hồ sơ"
+      btn_change: "Lưu thay đổi"
+      change_avatar: "Sửa ảnh đại diện"
   shared:
     text_alert: "Form có"
     error: "lỗi"
   activerecord:
     model:
       user: "Người dùng"
-      session: "abc"
     attributes:
       user:
-        name: "Tên đăng nhập nè"
-        email: "Email nè"
-        password: "Mật khẩu nè"
-        password_confirmation: "Nhập lại mật khẩu nè"
+        name: "Tên đăng nhập"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Nhập lại mật khẩu "
       session:
-        email: "Email nè"
+        email: "Email"
         password: "Hehe"
   sessions:
     new:
@@ -85,3 +99,4 @@ vi:
       remember_me: "Ghi nhớ đăng nhập"
     create:
       invalid_email_password_combination: "Email hoặc mật khẩu không đúng!"
+  confirm_delete: "Bạn chắc chứ ?"

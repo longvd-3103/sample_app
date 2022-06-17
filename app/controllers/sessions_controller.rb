@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     if user&.authenticate params.dig(:session, :password)
       log_in user
       params.dig(:session, :remember_me) == "1" ? remember(user) : forget(user)
-      redirect_to root_path
+      redirect_back_or user
     else
       flash.now[:danger] = t ".invalid_email_password_combination"
       render :new

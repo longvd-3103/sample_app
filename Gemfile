@@ -6,9 +6,11 @@ gem "bcrypt"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass"
 gem "config"
+gem "faker"
 gem "jbuilder", "~> 2.7"
 gem "mysql2", "~> 0.5.3"
 gem "net-smtp", require: false
+gem "pagy"
 gem "puma", "~> 5.0"
 gem "rails", "~> 6.1.6"
 gem "rails-i18n"
