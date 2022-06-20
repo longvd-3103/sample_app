@@ -85,16 +85,20 @@ vi:
         name: "Tên đăng nhập"
         email: "Email"
         password: "Mật khẩu"
-        password_confirmation: "Nhập lại mật khẩu "
-      session:
-        email: "Email"
-        password: "Hehe"
+        password_confirmation: "Nhập lại mật khẩu"
   user_mailer:
     account_activation:
       title: "Ứng dụng mẫu"
       greeting: "Chào "
       noti_welcome: "Chào mừng bạn tới với Ứng dụng mẫu! nhấn vào đường dẫn bên dưới để kích hoạt tài khoản của bạn: "
       active: "Kích hoạt"
+      title_subject: "Kích hoạt tài khoản Sample App"
+    password_reset:
+      reset_subject: "Đặt lại mật khẩu sample app"
+      title: "Đặt lại mật khẩu"
+      to_reset: "Để đặt lại mật khẩu vui lòng nhấn vào link bên dưới:"
+      expire: "Đường dẫn sẽ bị vô hiệu hóa sau 2 giờ."
+      not_you: "Nếu bạn không yêu cầu điều này, vui lòng bỏ qua email này"
   sessions:
     new:
       login: "Đăng nhập"
@@ -104,8 +108,31 @@ vi:
       new_user: "Chưa có tài khoản? "
       sign_up_now: "Đăng ký ngay!"
       remember_me: "Ghi nhớ đăng nhập"
+      forgot_password: "Quên mật khẩu"
     create:
       invalid_email_password_combination: "Email hoặc mật khẩu không đúng!"
+  account_activations:
+    edit:
+      noti_success: "Tài khoản kích hoạt thành công!"
+      noti_invalid: "Đường dẫn kích hoạt không hợp lệ!"
+      noti_failed: "Không tìm thấy người "
+  password_resets:
+    create:
+      request_success: "Đã gửi email thông tin về lấy lại mật khẩu"
+      email_invalid: "Không tìm thấy email"
+      empty: "Không được để trống"
+      reset_success: "Đặt lại mật khẩu thành công"
+      expired: "Đặt lại mật khẩu hết hạn"
+    edit:
+      title: "Đặt lại mật khẩu"
+      submit: "Đặt lại ngay"
+    new:
+      title: "Quên mật khẩu"
+    update:
+      reset_success: "Đặt lại mật khẩu thành công"
+      empty: "Mật khẩu không được để trống"
+      user_not_found: "Không tìm thấy người dùng"
+      user_invalid: "Người dùng không hợp lệ"
   confirm_delete: "Bạn chắc chứ ?"
   title_subject: "Kích hoạt tài khoản sample app"
   account_activations:

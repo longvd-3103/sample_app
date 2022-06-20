@@ -93,6 +93,14 @@ en:
       greeting: "Hi "
       noti_welcome: "Welcome to the Sample App! Click on the link below to activate your account: "
       active: "Activate"
+      title_subject: "Activation account Sample App"
+    password_reset:
+      reset_subject: "Reset password sample app"
+      title: "Reset password"
+      to_reset: "To reset your password click the link below:"
+      expire: "This link will expire in two hours."
+      not_you: " If you did not request your password to be reset, please ignore this email
+                and your password will stayas it is."
   sessions:
     new:
       login: "Login"
@@ -102,8 +110,31 @@ en:
       new_user: "New user? "
       sign_up_now: "Sign up now!"
       remember_me: "Remember me"
+      forgot_password: "Forgot password"
     create:
       invalid_email_password_combination: "Email or password ís not correct!"
+  account_activations:
+    edit:
+      noti_success: "User actived!"
+      noti_invalid: "Link invalid!"
+      noti_failed: "User invalid "
+  password_resets:
+    create:
+      request_success: "Email sent with password reset instructions"
+      email_invalid: "Email not found"
+      empty: "Can not empty"
+      reset_success: "Reset password successed!"
+      expired: "Reset password expired"
+    edit:
+      title: "Reset password"
+      submit: "Reset now"
+    new:
+      title: "Forgot password"
+    update:
+      reset_success: "Reset password successed!"
+      empty: "Password can not empty"
+      user_not_found: "User not found"
+      user_invalid: "User invalid"
   confirm_delete: "Are You Sure ?"
   title_subject: "Active your account Sample app"
   account_activations:
