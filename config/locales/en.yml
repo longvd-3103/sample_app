@@ -51,6 +51,7 @@ en:
     signup: "Sign up"
     describe: "This will be a signup page for new users."
     create:
+      create_noti: "Please check your email to active account!"
       create_success: "Welcome to the Sample App!"
       create_failed: "Created failed!"
     show:
@@ -86,6 +87,12 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Re-password"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      greeting: "Hi "
+      noti_welcome: "Welcome to the Sample App! Click on the link below to activate your account: "
+      active: "Activate"
   sessions:
     new:
       login: "Login"
@@ -98,3 +105,9 @@ en:
     create:
       invalid_email_password_combination: "Email or password ís not correct!"
   confirm_delete: "Are You Sure ?"
+  title_subject: "Active your account Sample app"
+  account_activations:
+    edit:
+      noti_success: "User actived!"
+      noti_invalid: "Link invalid!"
+      noti_failed: "User invalid "

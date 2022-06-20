@@ -50,6 +50,7 @@ vi:
     signup: "Đăng ký"
     describe: "Đây là trang đăng ký người dùng mới."
     create:
+      create_noti: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn!"
       create_success: "Chào mừng bạn tới với Sample App!"
       create_failed: "Tạo người dùng thất bại!"
     show:
@@ -88,6 +89,12 @@ vi:
       session:
         email: "Email"
         password: "Hehe"
+  user_mailer:
+    account_activation:
+      title: "Ứng dụng mẫu"
+      greeting: "Chào "
+      noti_welcome: "Chào mừng bạn tới với Ứng dụng mẫu! nhấn vào đường dẫn bên dưới để kích hoạt tài khoản của bạn: "
+      active: "Kích hoạt"
   sessions:
     new:
       login: "Đăng nhập"
@@ -100,3 +107,9 @@ vi:
     create:
       invalid_email_password_combination: "Email hoặc mật khẩu không đúng!"
   confirm_delete: "Bạn chắc chứ ?"
+  title_subject: "Kích hoạt tài khoản sample app"
+  account_activations:
+    edit:
+      noti_success: "Tài khoản kích hoạt thành công!"
+      noti_invalid: "Đường dẫn kích hoạt không hợp lệ!"
+      noti_failed: "Không tìm thấy người "
