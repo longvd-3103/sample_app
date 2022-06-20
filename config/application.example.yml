@@ -1,0 +1,10 @@
+config.action_mailer.delivery_method = :smtp
+config.action_mailer.default_url_options = {host: "" }
+config.action_mailer.smtp_settings = {
+  :user_name => "",
+  :password => "",
+  :address => "",
+  :domain => "",
+  :port => "",
+  :authentication => :cram_md5
+}

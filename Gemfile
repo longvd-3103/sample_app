@@ -6,6 +6,7 @@ gem "bcrypt"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass"
 gem "config"
+gem "dotenv-rails"
 gem "faker"
 gem "jbuilder", "~> 2.7"
 gem "mysql2", "~> 0.5.3"
