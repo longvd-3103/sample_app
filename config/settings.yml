@@ -8,6 +8,13 @@ user:
   password:
     min_length: 6
   gravatar:
-    size: 80
+    size: 50
 time:
     expired_password: 2
+paging:
+  posts_per_page: 7
+image:
+  width_size: 500
+  height_size: 500
+  accept_img: "image/jpeg,image/gif,image/png"
+  limit_size: 5
