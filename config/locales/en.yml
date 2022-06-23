@@ -7,6 +7,7 @@ en:
       sub_title: "This is the home page for the %{rails_link} sample application"
       rails_txt: "Ruby on Rails Tutorial"
       signup: "Sign up now!"
+      micropost_feed: "Micropost feed"
     help:
       english: "English"
       vietnamese: "Vietnamese"
@@ -56,6 +57,7 @@ en:
       create_failed: "Created failed!"
     show:
       find_failed: "Can't find the user"
+      micropost: "Microposts"
     new:
       btn_create: "Create new user"
       re_password: "Confirm password"
@@ -78,6 +80,13 @@ en:
   shared:
     text_alert: "The form contains"
     error: "error"
+    micropost_form:
+      new_micropost: "Write something...."
+      max_is_5mb: "file can not over 5mb, please choose another"
+      submit_post: "Post"
+    user_info:
+      view_my_profile: "My profile"
+      micropost: "Micropost"
   activerecord:
     model:
       user: "User"
@@ -142,3 +151,19 @@ en:
       noti_success: "User actived!"
       noti_invalid: "Link invalid!"
       noti_failed: "User invalid "
+  require_login: "Please log in"
+  microposts:
+    create:
+      create_successed: "Create micro post success"
+      delete_successed: "Delete micro post success"
+      delete_failed: "Delete micro post fail"
+      post_invalid: "Micro post invalid"
+    destroy:
+      delete_successed: "Delete micro post success"
+    format_invalid: "Format invalid"
+    less_5mb: "Must less than 5mb"
+    micropost:
+      confirm_delete: "Are you sure ?"
+      delete: "delete"
+  js:
+    over_5mb: "không được tải ảnh trên 5mb"

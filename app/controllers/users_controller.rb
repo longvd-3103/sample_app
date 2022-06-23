@@ -5,7 +5,10 @@ class UsersController < ApplicationController
   before_action :load_user, only: %i(show edit update destroy)
   before_action :correct_user, only: %i(edit update)
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy(@user.microposts.all,
+                              items: Settings.paging.posts_per_page)
+  end
 
   def new
     @user = User.new

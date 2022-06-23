@@ -7,6 +7,7 @@ vi:
       sub_title: "Đây là trang chủ của %{rails_link} ứng dụng mẫu"
       rails_txt: "Ruby on Rails Hướng dẫn"
       signup: "Đăng ký ngay!"
+      micropost_feed: "Bảng tin"
     help:
       english: "Tiếng anh"
       vietnamese: "Tiếng việt"
@@ -55,6 +56,7 @@ vi:
       create_failed: "Tạo người dùng thất bại!"
     show:
       find_failed: "Không thể tìm thấy người dùng"
+      micropost: "Bài viết"
     new:
       btn_create: "Tạo tài khoản"
       re_password: "Nhập lại mật khẩu"
@@ -77,6 +79,13 @@ vi:
   shared:
     text_alert: "Form có"
     error: "lỗi"
+    micropost_form:
+      new_micropost: "Viết gì đó nào...."
+      max_is_5mb: "Quá độ dài tối đa, vui lòng chọn file khác"
+      submit_post: "Đăng bài"
+    user_info:
+      view_my_profile: "Xem hồ sơ"
+      micropost: "Bài viết"
   activerecord:
     model:
       user: "Người dùng"
@@ -140,3 +149,19 @@ vi:
       noti_success: "Tài khoản kích hoạt thành công!"
       noti_invalid: "Đường dẫn kích hoạt không hợp lệ!"
       noti_failed: "Không tìm thấy người "
+  require_login: "Vui lòng đăng nhập"
+  microposts:
+    create:
+      create_successed: "Tạo bài viết thành công"
+      delete_successed: "Xóa bài viết thành công"
+      delete_failed: "Xóa bài viết thất bại"
+      post_invalid: "Bài viết không hợp lệ"
+    destroy:
+      delete_successed: "Xóa bài viết thành công"
+    format_invalid: "Định dạng không hợp lệ"
+    less_5mb: "Phải nhỏ hơn 5mb"
+    micropost:
+      confirm_delete: "Bạn chắc chứ ?"
+      delete: "Xóa"
+  js:
+    over_5mb: "không được tải ảnh trên 5mb"

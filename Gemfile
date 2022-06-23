@@ -2,13 +2,18 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 ruby "3.1.2"
 
+gem "active_storage_validations"
 gem "bcrypt"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass"
 gem "config"
 gem "dotenv-rails"
 gem "faker"
+gem "i18n"
+gem "i18n-js"
+gem "image_processing"
 gem "jbuilder", "~> 2.7"
+gem "mini_magick"
 gem "mysql2", "~> 0.5.3"
 gem "net-smtp", require: false
 gem "pagy"
