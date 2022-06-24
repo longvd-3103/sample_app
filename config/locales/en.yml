@@ -69,6 +69,7 @@ en:
     index:
       login_required: "Please log in!"
       title: "All users"
+      find_failed: "Load users failed"
     destroy:
       delete_successed: "Delete user successed!"
       delete_failed: "Delete user failed!"
@@ -77,6 +78,18 @@ en:
       update_title: "Update your profile"
       btn_change: "Save changes"
       change_avatar: "Change your avatar"
+    following:
+      title: "Followings"
+    followers:
+      title: "Followers"
+      login_required: "Please login!"
+    unfollow:
+      title: "Unfollow"
+    follow:
+      title: "Follow"
+    show_follow:
+      view_my_profile: "View my profile"
+      posts: "Microposts: "
   shared:
     text_alert: "The form contains"
     error: "error"
@@ -155,11 +168,10 @@ en:
   microposts:
     create:
       create_successed: "Create micro post success"
-      delete_successed: "Delete micro post success"
-      delete_failed: "Delete micro post fail"
       post_invalid: "Micro post invalid"
     destroy:
       delete_successed: "Delete micro post success"
+      delete_failed: "Delete micro post fail"
     format_invalid: "Format invalid"
     less_5mb: "Must less than 5mb"
     micropost:

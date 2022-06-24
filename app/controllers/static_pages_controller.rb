@@ -3,7 +3,7 @@ class StaticPagesController < ApplicationController
     return unless logged_in?
 
     @micropost = current_user.microposts.build
-    @pagy, @feed_items = pagy(User.feed(current_user).recent_posts,
+    @pagy, @feed_items = pagy(Micropost.feed(current_user).recent_posts,
                               items: Settings.paging.posts_per_page)
   end
 

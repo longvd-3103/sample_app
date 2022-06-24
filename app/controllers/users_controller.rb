@@ -1,9 +1,8 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(index edit update destroy)
+  before_action :logged_in_user, except: %i(new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
-  before_action :load_user, only: %i(show edit update destroy)
-  before_action :correct_user, only: %i(edit update)
+  before_action :load_user, except: %i(new create index)
 
   def show
     @pagy, @microposts = pagy(@user.microposts.all,
@@ -50,6 +49,20 @@ class UsersController < ApplicationController
       flash[:danger] = t ".delete_failed"
       render users_path
     end
+  end
+
+  def following
+    @title = t ".title"
+    @pagy, @users = pagy(@user.following,
+                         items: Settings.paging.following_per_page)
+    render :show_follow
+  end
+
+  def followers
+    @title = t ".title"
+    @pagy, @users = pagy(@user.followers,
+                         items: Settings.paging.follower_per_page)
+    render :show_follow
   end
 
   private

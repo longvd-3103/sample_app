@@ -68,6 +68,7 @@ vi:
     index:
       login_required: "Vui lòng đăng nhập!"
       title: "Tất cả người dùng"
+      find_failed: "Tải người dùng thất bại"
     destroy:
       delete_successed: "Xóa người dùng thành công!"
       delete_failed: "Xóa người dùng thất bại!"
@@ -76,6 +77,19 @@ vi:
       update_title: "Chỉnh sửa hồ sơ"
       btn_change: "Lưu thay đổi"
       change_avatar: "Sửa ảnh đại diện"
+    following:
+      title: "Đang theo dõi"
+    followers:
+      title: "Người theo dõi"
+      login_required: "Vui lòng đăng nhập!"
+    unfollow:
+      title: "Bỏ theo dõi"
+    follow:
+      title: "Theo dõi"
+    show_follow:
+      view_my_profile: "Xem hồ sơ của tôi"
+      posts: "Bài đăng: "
+
   shared:
     text_alert: "Form có"
     error: "lỗi"
@@ -153,11 +167,10 @@ vi:
   microposts:
     create:
       create_successed: "Tạo bài viết thành công"
-      delete_successed: "Xóa bài viết thành công"
-      delete_failed: "Xóa bài viết thất bại"
       post_invalid: "Bài viết không hợp lệ"
     destroy:
       delete_successed: "Xóa bài viết thành công"
+      delete_failed: "Xóa bài viết thất bại"
     format_invalid: "Định dạng không hợp lệ"
     less_5mb: "Phải nhỏ hơn 5mb"
     micropost:
@@ -165,3 +178,5 @@ vi:
       delete: "Xóa"
   js:
     over_5mb: "không được tải ảnh trên 5mb"
+  relationships:
+    find_failed: "Không tìm thấy người dùng!"
